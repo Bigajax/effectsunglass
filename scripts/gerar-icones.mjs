@@ -14,18 +14,12 @@ import sharp from "sharp";
 const PRETO = "#000000";
 const RAIO = "#c8ff2e";
 
-async function icone(tamanho, destino, verde = false) {
-  const raio = await sharp("public/marca/raio.png").resize({ height: Math.round(tamanho * 0.62) }).toBuffer();
+async function icone(tamanho, destino) {
+  /* a máscara já é branca sobre transparente: basta deitar sobre o preto */
+  const raio = await sharp("public/marca/raio.png").resize({ height: Math.round(tamanho * 0.62) }).png().toBuffer();
   const meta = await sharp(raio).metadata();
-  const fundo = sharp({ create: { width: tamanho, height: tamanho, channels: 4, background: PRETO } });
-  const tinta = verde ? RAIO : "#ffffff";
-  /* a máscara branca vira a cor pedida: pinta um retângulo e usa o raio como alfa */
-  const pintado = await sharp({ create: { width: meta.width, height: meta.height, channels: 4, background: tinta } })
-    .joinChannel(await sharp(raio).extractChannel("alpha").toBuffer())
-    .png()
-    .toBuffer();
-  await fundo
-    .composite([{ input: pintado, left: Math.round((tamanho - meta.width) / 2), top: Math.round((tamanho - meta.height) / 2) }])
+  await sharp({ create: { width: tamanho, height: tamanho, channels: 4, background: PRETO } })
+    .composite([{ input: raio, left: Math.round((tamanho - meta.width) / 2), top: Math.round((tamanho - meta.height) / 2) }])
     .png()
     .toFile(destino);
   console.log(destino, tamanho);

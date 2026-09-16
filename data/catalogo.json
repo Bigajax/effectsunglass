@@ -1,0 +1,578 @@
+{
+  "categorias": [
+    {
+      "id": "c-quadrado",
+      "nome": "Quadrado",
+      "slug": "quadrado",
+      "ordem": 1,
+      "ativo": true,
+      "capa": "/produtos/preto-quadrado.webp",
+      "capaBlur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoMAAwAA4BaJZwAAueMDtVq7cAA/vTO/0aefaEr4cMqObM5mDCV/vYlnG9/i7Kbp5jGALPQ0AA="
+    },
+    {
+      "id": "c-redondo",
+      "nome": "Redondo",
+      "slug": "redondo",
+      "ordem": 2,
+      "ativo": true,
+      "capa": "/produtos/azul-redondo.webp",
+      "capaBlur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoMAAwAA4BaJZQCdAEQ+wBQAP5qFtJDYcr0ONHpdZnvfDaYVHUswefYmyxNS0SyKCmG/MuUw0qaYRIQBsZ+AAAA"
+    },
+    {
+      "id": "c-oval",
+      "nome": "Oval",
+      "slug": "oval",
+      "ordem": 3,
+      "ativo": true,
+      "capa": "/produtos/oceano-azul.webp",
+      "capaBlur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoMAAwAA4BaJZQCdAEQDzTJEAAA/q8BH6CobimNHG5MWbUxQAimE0r2O1fhLY9+u+IseNktvbAAAA=="
+    },
+    {
+      "id": "c-esporte",
+      "nome": "Esporte",
+      "slug": "esporte",
+      "ordem": 4,
+      "ativo": true,
+      "capa": "/produtos/oculos-esporte-amarelo.webp",
+      "capaBlur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoMAAwAA4BaJQAAXO7EyoyKfAAA/vHNeovnBhlmZ7lssyhcavOV0TLQkGNAKHBnLVvXXnNLH7Z/E308Xa8HCcHdzAAAAA=="
+    }
+  ],
+  "produtos": [
+    {
+      "id": "p-001",
+      "codigo": "EF-0001",
+      "nome": "Preto Clássico",
+      "slug": "preto-classico",
+      "descricao": "O preto de todo dia: armação clássica em acetato preto brilhante, assinatura effect na haste, lente escura com proteção UV400.",
+      "marca": "Effect",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "quadrado",
+      "tamanhos": [],
+      "cores": [
+        "preto"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1002,
+      "imagens": [
+        {
+          "url": "/produtos/preto-classico.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoMAAwAA4BaJbACdGuAAq8EyK8QPAD9vTyyDqYhtbg0X+nC8EQ0NhQ2dYyBUHRMWSQUFwPXLm2codsxPmkKaUD6ktuGayJEA2CXg07fhE3h04AA",
+          "alt": "Preto Clássico",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/preto-classico-2.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoKAAwAA4BaJYgCdADcmYD4CAAA/sXIkbZHGOTuEvyqM/7GzdigY3IR5ThiWs6+pJBHk/wd+ybWbRd5kIusrplUL4krokrpUmX6TSnAAAA=",
+          "alt": "Preto Clássico",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-002",
+      "codigo": "EF-0002",
+      "nome": "Óculos Esporte Amarelo",
+      "slug": "oculos-esporte-amarelo",
+      "descricao": "Armação envolvente amarelo neon com lente escura. Proteção UV400 e ajuste confortável para correr, pedalar e encarar o sol na praia.",
+      "marca": "Effect",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "esporte",
+      "tamanhos": [],
+      "cores": [
+        "amarelo neon"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 3,
+      "imagens": [
+        {
+          "url": "/produtos/oculos-esporte-amarelo.webp",
+          "largura": 1200,
+          "altura": 1200,
+          "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoMAAwAA4BaJQAAXO7EyoyKfAAA/vHNeovnBhlmZ7lssyhcavOV0TLQkGNAKHBnLVvXXnNLH7Z/E308Xa8HCcHdzAAAAA==",
+          "alt": "Óculos Esporte Amarelo",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/oculos-esporte-amarelo-2.webp",
+          "largura": 1200,
+          "altura": 1199,
+          "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoMAAwAA4BaJQAAXPFwAl4AAP7tW+3UJ8sFtDyxLvsePhHAJdpVPGsn6MlMoBgoD+n7V8a2SoAAAA==",
+          "alt": "Óculos Esporte Amarelo",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/oculos-esporte-amarelo-3.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoKAAwAA4BaJbACdGuAAoa6H/mSAAD+5/qU++UwBELGW9vIZFoVqFjuRd/bwZzyckp5XlnjbRsNL+mEGrXLdHfY2iT/8dhUeknuOwZrtljk4tPf2RAAAA==",
+          "alt": "Óculos Esporte Amarelo",
+          "ordem": 2
+        },
+        {
+          "url": "/produtos/oculos-esporte-amarelo-4.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwAgCdASoKAAwAA4BaJbACdGuAAuLkADA2dBYAAP6a/n8IhBCLz3xB451FbNLYxjLHTj6/VXtgx0cjJTxtIagpi0jBopkBY52Ez9QAYFBW/hH1CEobWR2vitNKHpwzfu7dwAAA",
+          "alt": "Óculos Esporte Amarelo",
+          "ordem": 3
+        },
+        {
+          "url": "/produtos/oculos-esporte-amarelo-5.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoKAAwAA4BaJbACdGuAAvr+ZOQ+4AD+1iqdKNOTvvJPoZjkzRkpt2nUFeZJek3fnq0dbg9sHPhSdKjFGUqdaIm9zEQyzWiSgVZjb9Pe/QcLEptm9zds/gAA",
+          "alt": "Óculos Esporte Amarelo",
+          "ordem": 4
+        },
+        {
+          "url": "/produtos/oculos-esporte-amarelo-6.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoKAAwAA4BaJbACdH8AE5yVgWUAAP7nVwVhu188qnh0RPZ8Asn1lC0+IcDjZkHb2D8lk1P3eleMX2XzN3++hdBbM0ZrQcdlEa/lxKcLfMZNXysqbOlcAAAA",
+          "alt": "Óculos Esporte Amarelo",
+          "ordem": 5
+        }
+      ]
+    },
+    {
+      "id": "p-003",
+      "codigo": "EF-0003",
+      "nome": "Cristal Redondo",
+      "slug": "cristal-redondo",
+      "descricao": "Armação redonda translúcida com lente espelhada. Proteção UV400. Na foto, o fotógrafo Rodrigo Ferraz.",
+      "marca": "Effect",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "redondo",
+      "tamanhos": [],
+      "cores": [
+        "cristal"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1020,
+      "imagens": [
+        {
+          "url": "/produtos/cristal-redondo.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoKAAwAA4BaJaQAAt0LsaVv8IAAAP7tFEqvOCqqnPSKvtbmWxnY0bIvFmwibalJqAhGACsqqIAAAA==",
+          "alt": "Cristal Redondo",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-004",
+      "codigo": "EF-0004",
+      "nome": "Azul Redondo",
+      "slug": "azul-redondo",
+      "descricao": "Armação redonda em azul translúcido, com detalhe de losango na frente e lente escura. Proteção UV400.",
+      "marca": "Effect",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "redondo",
+      "tamanhos": [],
+      "cores": [
+        "azul"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 5,
+      "imagens": [
+        {
+          "url": "/produtos/azul-redondo.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoMAAwAA4BaJZQCdAEQ+wBQAP5qFtJDYcr0ONHpdZnvfDaYVHUswefYmyxNS0SyKCmG/MuUw0qaYRIQBsZ+AAAA",
+          "alt": "Azul Redondo",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/azul-redondo-2.webp",
+          "largura": 1200,
+          "altura": 1200,
+          "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoMAAwAA4BaJYwCdAEQNMT8+wAA/ueP1ExP/0MTFIm2J4y3+4uSeUHJEX+AlCIUVMaYx8felEgAAA==",
+          "alt": "Azul Redondo",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/azul-redondo-3.webp",
+          "largura": 1200,
+          "altura": 1200,
+          "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoMAAwAA4BaJaACdACnq5sNQAD+QA+X0tbju9C+GLDiq2KiqR+Nntn20SHGQvLa262idS0bT9KcQXVPYy016y7TRQZiEYwsuU7fkWcAgEl3wDgsr//lBz4nAAA=",
+          "alt": "Azul Redondo",
+          "ordem": 2
+        },
+        {
+          "url": "/produtos/azul-redondo-4.webp",
+          "largura": 1200,
+          "altura": 1200,
+          "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoMAAwAA4BaJbACdH8AFlq/aWNAAAD+W0ov01fdFbGsEsYvTV0uG/FZ5iD8t+HQqfrNRONwaoJvjOz/+rmfa/CN8OInmtvhH8A3XMhbN2fCQNj4vuMPuKWlb3N8TUwA",
+          "alt": "Azul Redondo",
+          "ordem": 3
+        },
+        {
+          "url": "/produtos/azul-redondo-5.webp",
+          "largura": 1200,
+          "altura": 1200,
+          "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoMAAwAA4BaJbACdAEWueDTkc4OkAD8j0s3C8Lxt1cYtpzqmuQXeEKWaekFXNkl8tdxiuC+m/aOtJW+bxeVwrtnPrxjYwjnzIWVHWt4y9ujdb6UPwr0LS0dAAA=",
+          "alt": "Azul Redondo",
+          "ordem": 4
+        }
+      ]
+    },
+    {
+      "id": "p-005",
+      "codigo": "EF-0005",
+      "nome": "Tartarugado Mel",
+      "slug": "tartarugado-mel",
+      "descricao": "Armação clássica em tartaruga mel translúcida com lente verde. Proteção UV400. Vem na caixa effect.",
+      "marca": "Effect",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "quadrado",
+      "tamanhos": [],
+      "cores": [
+        "tartaruga mel"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1028,
+      "imagens": [
+        {
+          "url": "/produtos/tartarugado-mel.webp",
+          "largura": 1200,
+          "altura": 900,
+          "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoMAAkAA4BaJZwAAsWNyaelNAD+53boYE34lbudMEV0F1KzzmM+rvWMxVedmWEN0AKNx8eux8CAAA==",
+          "alt": "Tartarugado Mel",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-006",
+      "codigo": "EF-0006",
+      "nome": "Oceano Azul",
+      "slug": "oceano-azul",
+      "descricao": "O óculos Oceano: armação oval em azul translúcido, fina e envolvente, com lente escura e proteção UV400. O modelo da Raissa Zanardini.",
+      "marca": "Effect",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "oval",
+      "tamanhos": [],
+      "cores": [
+        "azul translúcido"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 2,
+      "imagens": [
+        {
+          "url": "/produtos/oceano-azul.webp",
+          "largura": 1200,
+          "altura": 1200,
+          "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoMAAwAA4BaJZQCdAEQDzTJEAAA/q8BH6CobimNHG5MWbUxQAimE0r2O1fhLY9+u+IseNktvbAAAA==",
+          "alt": "Oceano Azul",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/oceano-azul-2.webp",
+          "largura": 1200,
+          "altura": 1200,
+          "blur": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAgCdASoMAAwAA4BaJYwCdAEfkpexBOAAAP6N7txIggypmnLlFlSTXGKkNG2ssn0j2/KIAAA=",
+          "alt": "Oceano Azul",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/oceano-azul-3.webp",
+          "largura": 1200,
+          "altura": 1200,
+          "blur": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAACwAQCdASoMAAwAA4BaJYwCdAEQJbeAAP6LPOIFuG+Lbs90/amrFWwzTG8hMs6qaWRXJAAA",
+          "alt": "Oceano Azul",
+          "ordem": 2
+        },
+        {
+          "url": "/produtos/oceano-azul-4.webp",
+          "largura": 1029,
+          "altura": 1286,
+          "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoKAAwAA4BaJbACdAD0N7Tw7oAA/mCJf3Xp73NL44lY5TWbb/Q0d9uh3QecdbfMCJbuPHMGcZ+ktY4CKMcnmHRsNa9+zWBzt93IfvW/TTvn6SrnWQYAAA==",
+          "alt": "Oceano Azul",
+          "ordem": 3
+        },
+        {
+          "url": "/produtos/oceano-azul-5.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoKAAwAA4BaJbACdADZmJF4AAD+kbDG4MTVbXxUhhTrwNbtvap2jkrn4a1tHNPhLK9B0VVjL88rorG+adLj7RB+IN1T2bnb09qLptB1EcmS8oz0AAA=",
+          "alt": "Oceano Azul",
+          "ordem": 4
+        },
+        {
+          "url": "/produtos/oceano-azul-6.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoKAAwAA4BaJbACdADXD7wHwAAA/pF1XnGZtblMPICnNol9xxLOiEiAi+IJ7FN/9pJ5ixIKZNQawb8gsSQY3XNZxaWdbuoefF64Gi09qLprbNLWhKgAAA==",
+          "alt": "Oceano Azul",
+          "ordem": 5
+        },
+        {
+          "url": "/produtos/oceano-azul-7.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoKAAwAA4BaJbACdGuAAoaTwscAAMtN+YvPJ5JqDrixHNpZ1SKTkq8o80Zu94zQA+wGl36hRMOII6/uk/XgJvQQ3ewwMXTnZw9i6233UO1yneEgAAA=",
+          "alt": "Oceano Azul",
+          "ordem": 6
+        }
+      ]
+    },
+    {
+      "id": "p-007",
+      "codigo": "EF-0007",
+      "nome": "Tartarugado Oceano",
+      "slug": "tartarugado-oceano",
+      "descricao": "Da Coleção Oceano: armação quadrada inspirada no casco de tartaruga, com lentes polarizadas e proteção UV400.",
+      "marca": "Effect",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "quadrado",
+      "tamanhos": [],
+      "cores": [
+        "tartaruga"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 4,
+      "imagens": [
+        {
+          "url": "/produtos/tartarugado-oceano.webp",
+          "largura": 640,
+          "altura": 1136,
+          "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoHAAwAA4BaJYgCdH8AFbtFFkyAAP0Aq2YQIEC+s257bMX5zeZvXmHLq1/j2qQbD72j7JN0FN5YGaljxpY5XAAA",
+          "alt": "Tartarugado Oceano",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/tartarugado-oceano-2.webp",
+          "largura": 900,
+          "altura": 900,
+          "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoMAAwAA4BaJZwAAu11HxjIwAD+9w5sO1ojL4H5bXpbieJHvFiFG3h6HmyBuP25CxxzkgFlg645M9CAAAA=",
+          "alt": "Tartarugado Oceano",
+          "ordem": 1
+        }
+      ]
+    },
+    {
+      "id": "p-008",
+      "codigo": "EF-0008",
+      "nome": "Preto Quadrado",
+      "slug": "preto-quadrado",
+      "descricao": "Armação preta de acetato, quadrada e encorpada, com a assinatura effect na haste. Lente escura com proteção UV400. O modelo do atleta Numa Liory.",
+      "marca": "Effect",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "quadrado",
+      "tamanhos": [],
+      "cores": [
+        "preto"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 1,
+      "imagens": [
+        {
+          "url": "/produtos/preto-quadrado.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoMAAwAA4BaJZwAAueMDtVq7cAA/vTO/0aefaEr4cMqObM5mDCV/vYlnG9/i7Kbp5jGALPQ0AA=",
+          "alt": "Preto Quadrado",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/preto-quadrado-2.webp",
+          "largura": 1200,
+          "altura": 1200,
+          "blur": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQAgCdASoMAAwAA4BaJbACdAEYEhPmdCaAAP6xA7w7LdFbfljNTcSTepGXv4Ekh3lO2v3VIe3RYc2kBjpRtfi76i0ZAAExkILBStwS34zEGzClJT9jP/njBMavVVmvGBFRUfgyArx4mPf5DYtrxZr2pLpSakAA",
+          "alt": "Preto Quadrado",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/preto-quadrado-3.webp",
+          "largura": 1200,
+          "altura": 1200,
+          "blur": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoMAAwAA4BaJagCdAEedTqUnAgAAP6mz002orVdsnU1fcWC+FxZrmoLUalKcuyc5aDtkd4kNDDf66JAlJpLjpVBirwOWnJkzbQfv83+UJtFDYK773EXfkfIAAA=",
+          "alt": "Preto Quadrado",
+          "ordem": 2
+        },
+        {
+          "url": "/produtos/preto-quadrado-4.webp",
+          "largura": 1170,
+          "altura": 1170,
+          "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQAgCdASoMAAwAA4BaJbACdAYu5n1KUJqltGAA9mvjtfPQ+P6Qph7/ffSzl7obxPreDgBSq8nIAzJFB5EEL0PJdoCH8H4bY3rGHj+vif6vqU78csfeLKTUyglDdqRzduwtxZ2Gc383+o5XUAAAAA==",
+          "alt": "Preto Quadrado",
+          "ordem": 3
+        },
+        {
+          "url": "/produtos/preto-quadrado-5.webp",
+          "largura": 1170,
+          "altura": 1170,
+          "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQAgCdASoMAAwAA4BaJbACdH8AFxTOPVmBjwAA/udTe3/TRXm5jkO2PseaBkjVWu9nXRbW7xvyebLSq+XQoGVjojlHgZeNhlvq5TWLHcCa3/9jKWu+J4cEu/fkV7ReNffcHvy+qlAAAA==",
+          "alt": "Preto Quadrado",
+          "ordem": 4
+        },
+        {
+          "url": "/produtos/preto-quadrado-6.webp",
+          "largura": 1080,
+          "altura": 1080,
+          "blur": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoMAAwAA4BaJZgCdH8AGYID2tRAAAD+75zCVBzhPlam/qNxgGnQlNdfeWimalY2nBKbAhVLXVRKJBWXApIoHaAllMT5acjTQAAAAA==",
+          "alt": "Preto Quadrado",
+          "ordem": 5
+        },
+        {
+          "url": "/produtos/preto-quadrado-7.webp",
+          "largura": 1170,
+          "altura": 1170,
+          "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoMAAwAA4BaJYgCdAEQ+3xAyjj3wAD+08vNF9f6SqDboQci/wxpwg+Lq2/0RaB8sgUU8AUI6CP6nkT7xOSMQny2pEF8KIyAAAA=",
+          "alt": "Preto Quadrado",
+          "ordem": 6
+        }
+      ]
+    },
+    {
+      "id": "p-009",
+      "codigo": "EF-0009",
+      "nome": "Azul Claro Retangular",
+      "slug": "azul-claro-retangular",
+      "descricao": "Armação retangular estreita em azul claro com lente marrom. Proteção UV400.",
+      "marca": "Effect",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "quadrado",
+      "tamanhos": [],
+      "cores": [
+        "azul claro"
+      ],
+      "destaque": false,
+      "ativo": true,
+      "ordem": 1045,
+      "imagens": [
+        {
+          "url": "/produtos/azul-claro-retangular.webp",
+          "largura": 720,
+          "altura": 1280,
+          "blur": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoHAAwAA4BaJagCdADzVLgAAP3FiAA0QczCg37VBpg8BGIYn/QV/2Qr3SQX812Sm+Tec7Auyr1ehoAA",
+          "alt": "Azul Claro Retangular",
+          "ordem": 0
+        }
+      ]
+    },
+    {
+      "id": "p-010",
+      "codigo": "EF-0010",
+      "nome": "Preto Espelhado Azul",
+      "slug": "preto-espelhado-azul",
+      "descricao": "Armação preta fosca de formato clássico com lente azul espelhada. Proteção UV400. Vem na caixa effect.",
+      "marca": "Effect",
+      "preco": null,
+      "preco_promocional": null,
+      "categoria_slug": "quadrado",
+      "tamanhos": [],
+      "cores": [
+        "preto com lente azul espelhada"
+      ],
+      "destaque": true,
+      "ativo": true,
+      "ordem": 6,
+      "imagens": [
+        {
+          "url": "/produtos/preto-espelhado-azul.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoKAAwAA4BaJagCdADdlkiM5gAAAP4zFg3EhBP5t0EgbNCiA8ijSHMPME4UA8YiUcsNxcBG7K9Tn3ztGJ22ibDWxV9AAA==",
+          "alt": "Preto Espelhado Azul",
+          "ordem": 0
+        },
+        {
+          "url": "/produtos/preto-espelhado-azul-2.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoKAAwAA4BaJZACdAEOlYZJAAD7Hlbuv5+PWgjRszjS79rpq9cHsay9xn7mrDw03kN9vkkTOTZiWGMjyoAAAA==",
+          "alt": "Preto Espelhado Azul",
+          "ordem": 1
+        },
+        {
+          "url": "/produtos/preto-espelhado-azul-3.webp",
+          "largura": 1200,
+          "altura": 1500,
+          "blur": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoKAAwAA4BaJZACdGuAAt0v/VAGsAD9d2SeV1xRvKA+haj+wjgqJ2VIj6zZ9W/F5csJALnnGjakIV074DtbrB54kAA=",
+          "alt": "Preto Espelhado Azul",
+          "ordem": 2
+        }
+      ]
+    }
+  ],
+  "hero": [
+    {
+      "url": "/produtos/preto-quadrado.webp",
+      "largura": 1080,
+      "altura": 1080,
+      "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoMAAwAA4BaJZwAAueMDtVq7cAA/vTO/0aefaEr4cMqObM5mDCV/vYlnG9/i7Kbp5jGALPQ0AA=",
+      "alt": "Preto Quadrado",
+      "ordem": 0,
+      "slug": "preto-quadrado"
+    },
+    {
+      "url": "/produtos/oceano-azul.webp",
+      "largura": 1200,
+      "altura": 1200,
+      "blur": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADwAQCdASoMAAwAA4BaJZQCdAEQDzTJEAAA/q8BH6CobimNHG5MWbUxQAimE0r2O1fhLY9+u+IseNktvbAAAA==",
+      "alt": "Oceano Azul",
+      "ordem": 0,
+      "slug": "oceano-azul"
+    },
+    {
+      "url": "/produtos/oculos-esporte-amarelo.webp",
+      "largura": 1200,
+      "altura": 1200,
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoMAAwAA4BaJQAAXO7EyoyKfAAA/vHNeovnBhlmZ7lssyhcavOV0TLQkGNAKHBnLVvXXnNLH7Z/E308Xa8HCcHdzAAAAA==",
+      "alt": "Óculos Esporte Amarelo",
+      "ordem": 0,
+      "slug": "oculos-esporte-amarelo"
+    },
+    {
+      "url": "/produtos/tartarugado-oceano.webp",
+      "largura": 640,
+      "altura": 1136,
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoHAAwAA4BaJYgCdH8AFbtFFkyAAP0Aq2YQIEC+s257bMX5zeZvXmHLq1/j2qQbD72j7JN0FN5YGaljxpY5XAAA",
+      "alt": "Tartarugado Oceano",
+      "ordem": 0,
+      "slug": "tartarugado-oceano"
+    },
+    {
+      "url": "/produtos/azul-redondo.webp",
+      "largura": 1080,
+      "altura": 1080,
+      "blur": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoMAAwAA4BaJZQCdAEQ+wBQAP5qFtJDYcr0ONHpdZnvfDaYVHUswefYmyxNS0SyKCmG/MuUw0qaYRIQBsZ+AAAA",
+      "alt": "Azul Redondo",
+      "ordem": 0,
+      "slug": "azul-redondo"
+    },
+    {
+      "url": "/produtos/preto-espelhado-azul.webp",
+      "largura": 1200,
+      "altura": 1500,
+      "blur": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoKAAwAA4BaJagCdADdlkiM5gAAAP4zFg3EhBP5t0EgbNCiA8ijSHMPME4UA8YiUcsNxcBG7K9Tn3ztGJ22ibDWxV9AAA==",
+      "alt": "Preto Espelhado Azul",
+      "ordem": 0,
+      "slug": "preto-espelhado-azul"
+    }
+  ]
+}
